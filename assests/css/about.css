@@ -1,0 +1,27 @@
+.top {
+    height: 40vh;
+    background-image: url('../img/about/top-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.about-us {
+    padding: 0px 5vw;
+    text-align: justify;
+}
+
+@media only screen and (min-width: 1024px) {
+    .about-us {
+        padding: 0px 15vw
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .our-expertise-para {
+        padding-right: 10vw;
+    }
+
+    .our-clients-info {
+        padding-left: 10vw;
+    }
+}

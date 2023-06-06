@@ -40,7 +40,7 @@
   right: 10%;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1025px) {
   
   .circle {
     padding: 50px 50px;
@@ -64,7 +64,7 @@
   } */
 }
 
-.card {
+/* .card {
   height: 70vh !important;
 }
 
@@ -72,9 +72,13 @@
   .card {
     height: 60vh !important;
   }
-}
+} */
 
 
-footer {
-  height: 40vh;
+.our-services .container a:hover{
+  background-color: #267cd15e !important;
 }
+
+/* footer {
+  padding: ;
+} */
